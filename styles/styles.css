@@ -5,3 +5,54 @@
   padding: 0px;
   font-family: "Lato", sans-serif;
 }
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+button {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #111010;
+  transition: all 0.5s;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+.banner .banner-text h1 {
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
