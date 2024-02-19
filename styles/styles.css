@@ -110,7 +110,26 @@ header {
   line-height: 35px;
   text-decoration-line: underline;
 }
-.section-content .flower p:hover{
+.section-content .flower p:hover {
   color: blue;
   cursor: pointer;
+}
+
+.section-service {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+.section-service .help .help-img {
+  text-align: center;
+}
+.section-service .help p {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 24px;
 }
