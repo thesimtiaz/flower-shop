@@ -18,7 +18,7 @@
 }
 .section-heading h2 {
   color: #272727;
-  font-family: Lato;
+
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -126,7 +126,6 @@ header,
 }
 .section-service .help p {
   color: rgba(39, 39, 39, 0.8);
-  font-family: Lato;
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
@@ -149,7 +148,7 @@ header,
 }
 #hot-deal .hot-deal-text h1 {
   color: #272727;
-  font-family: Lato;
+
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -160,7 +159,6 @@ header,
 }
 #hot-deal .hot-deal-text h1 .important {
   color: #e55473;
-  font-family: Lato;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -169,4 +167,70 @@ header,
 #instagram .flower-img {
   display: flex;
   gap: 24px;
+}
+
+#newsletter .newsletter-main {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  padding: 120px 0;
+  border-radius: 8px;
+}
+#newsletter form {
+  max-width: 850px;
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+}
+#newsletter form input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 22px;
+  outline: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  background: #111010;
+}
+.footer-content {
+  text-align: center;
+  padding: 128px 0;
+  margin-bottom: 0px;
+}
+.brand-title {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.brand-title .brand-information {
+  color: #e55473;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.brand-subtitle {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
 }
