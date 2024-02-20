@@ -166,3 +166,7 @@ header,
   font-weight: 800;
   line-height: normal;
 }
+#instagram .flower-img {
+  display: flex;
+  gap: 24px;
+}
